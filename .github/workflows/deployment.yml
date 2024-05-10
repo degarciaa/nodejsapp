@@ -1,6 +1,9 @@
 name: Node.js App Deploy
 
-on: push
+on: 
+  push:
+    branch:
+      main
 
 jobs:
   deploy:
