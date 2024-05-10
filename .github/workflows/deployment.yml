@@ -1,8 +1,9 @@
 name: Node.js App Deploy
 
 on:
-  issues:
-    type: [open]
+  push:
+    branch:
+      - main
 
 jobs:
   deploy:
