@@ -1,9 +1,9 @@
 name: Node.js App Deploy
-run-name: "Test branch"
-on: 
+
+on:
   push:
-    branch: 
-     - main
+    branch:
+      - main
 
 jobs:
   deploy:
