@@ -8,3 +8,6 @@ jobs:
     steps:
       - name: Repository checkout 
         uses: actions/checkout@v4
+
+      - name: Deploy app
+        run: pm2 restart nodejsapp
